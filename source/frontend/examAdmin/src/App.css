@@ -1,0 +1,15 @@
+/* 重置默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./assets/font/Montserrat-SemiBold.otf");
+}
+
+#root {
+  height: 100vh;
+}

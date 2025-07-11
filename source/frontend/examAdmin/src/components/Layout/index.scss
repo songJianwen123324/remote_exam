@@ -1,0 +1,41 @@
+.ant-layout {
+  height: 100%;
+}
+
+// 用户信息区域样式
+.user-info-container {
+  cursor: pointer;
+  padding: 0 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  .ant-space {
+    align-items: center;
+  }
+
+  .ant-typography {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+// 下拉菜单样式优化
+.ant-dropdown .ant-dropdown-menu {
+  min-width: 160px;
+
+  .ant-dropdown-menu-item {
+    padding: 8px 16px;
+
+    &:last-child {
+      color: #ff4d4f;
+
+      &:hover {
+        background-color: rgba(255, 77, 79, 0.06);
+      }
+    }
+  }
+}
